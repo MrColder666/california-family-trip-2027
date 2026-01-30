@@ -202,44 +202,15 @@ export default function HomePage() {
               </Link>
             </div>
             <div className="lg:col-span-7">
-              <div className="aspect-[4/3] bg-white border border-black p-8 flex items-center justify-center">
-                <svg viewBox="0 0 400 300" className="w-full h-full">
-                  {/* California simplified outline */}
-                  <path
-                    d="M 120 30 Q 80 80 90 140 Q 100 200 130 260 L 200 290 L 280 260 Q 320 200 300 140 Q 280 80 240 30 Z"
-                    fill="#EEEEEE"
-                    stroke="#333333"
-                    strokeWidth="1"
-                  />
-                  {/* Route line with animation */}
-                  <path
-                    d="M 200 200 L 220 240 Q 200 220 180 180 Q 170 150 160 120 L 150 80"
-                    fill="none"
-                    stroke="#FF5722"
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  {/* Cities */}
-                  <g>
-                    <circle cx="200" cy="200" r="10" fill="#FF5722" />
-                    <text x="215" y="205" className="text-xs font-bold" fill="#333">洛杉矶</text>
-                  </g>
-                  <g>
-                    <circle cx="220" cy="240" r="8" fill="#333333" />
-                    <text x="235" y="245" className="text-xs" fill="#333">圣地亚哥</text>
-                  </g>
-                  <g>
-                    <circle cx="165" cy="130" r="8" fill="#333333" />
-                    <text x="180" y="135" className="text-xs" fill="#333">蒙特雷</text>
-                  </g>
-                  <g>
-                    <circle cx="150" cy="80" r="10" fill="#FF5722" />
-                    <text x="165" y="85" className="text-xs font-bold" fill="#333">旧金山</text>
-                  </g>
-                  {/* Pacific Ocean label */}
-                  <text x="60" y="180" className="text-xs" fill="#9E9E9E" transform="rotate(-90, 60, 180)">太平洋</text>
-                </svg>
+              <div className="aspect-[4/3] bg-white border border-black overflow-hidden">
+                <img 
+                  src="/images/IMG_1824.jpeg" 
+                  alt="加州旅行路线概览" 
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    e.currentTarget.style.display = 'none'
+                  }}
+                />
               </div>
             </div>
           </div>
