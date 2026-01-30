@@ -1,0 +1,110 @@
+{
+  "summary": {
+    "totalBudget": 70000,
+    "currency": "CNY",
+    "exchangeRate": 7.15,
+    "travelers": { "adults": 2, "children": 2 },
+    "duration": 15
+  },
+  "categories": [
+    {
+      "id": "flights",
+      "name": "机票费用",
+      "budget": 12000,
+      "budgetUSD": 1680,
+      "percentage": 17.1,
+      "details": [
+        { "item": "成人往返机票", "quantity": 2, "unitPrice": 3500, "subtotal": 7000 },
+        { "item": "儿童往返机票", "quantity": 2, "unitPrice": 2625, "subtotal": 5250 }
+      ],
+      "tips": ["选择非旺季出行可节省30%-50%", "提前45-60天预订获最佳价格", "转机航班通常更优惠"]
+    },
+    {
+      "id": "accommodation",
+      "name": "住宿费用",
+      "budget": 15200,
+      "budgetUSD": 2125,
+      "percentage": 21.7,
+      "details": [
+        { "item": "洛杉矶5晚", "quantity": 5, "unitPrice": 900, "subtotal": 4500 },
+        { "item": "旧金山4晚", "quantity": 4, "unitPrice": 1250, "subtotal": 5000 },
+        { "item": "圣地亚哥3晚", "quantity": 3, "unitPrice": 1067, "subtotal": 3200 },
+        { "item": "途中住宿3晚", "quantity": 3, "unitPrice": 833, "subtotal": 2500 }
+      ],
+      "tips": ["Airbnb家庭套房性价比高", "含早餐酒店可节省餐饮开支", "提前2-3个月预订"]
+    },
+    {
+      "id": "transport",
+      "name": "租车及交通",
+      "budget": 8600,
+      "budgetUSD": 1200,
+      "percentage": 12.3,
+      "details": [
+        { "item": "中型SUV租车11天", "quantity": 11, "unitPrice": 394, "subtotal": 4330 },
+        { "item": "全险保险", "quantity": 1, "unitPrice": 1570, "subtotal": 1570 },
+        { "item": "异地还车费", "quantity": 1, "unitPrice": 1610, "subtotal": 1610 },
+        { "item": "汽油费用", "quantity": 1, "unitPrice": 1400, "subtotal": 1400 }
+      ],
+      "tips": ["租期选择7的倍数享受'租5免2'优惠", "自带儿童安全座椅", "使用手机导航替代GPS租用"]
+    },
+    {
+      "id": "food",
+      "name": "餐饮费用",
+      "budget": 13520,
+      "budgetUSD": 1890,
+      "percentage": 19.3,
+      "details": [
+        { "item": "早餐15天", "quantity": 15, "unitPrice": 115, "subtotal": 1720 },
+        { "item": "午餐15天", "quantity": 15, "unitPrice": 286, "subtotal": 4290 },
+        { "item": "晚餐15天", "quantity": 15, "unitPrice": 429, "subtotal": 6435 },
+        { "item": "零食饮料", "quantity": 1, "unitPrice": 1075, "subtotal": 1075 }
+      ],
+      "tips": ["选择含早餐酒店", "午餐以快餐为主", "超市购买食材更经济"]
+    },
+    {
+      "id": "tickets",
+      "name": "景点门票",
+      "budget": 11000,
+      "budgetUSD": 1540,
+      "percentage": 15.7,
+      "details": [
+        { "item": "迪士尼3日联票(4人)", "quantity": 1, "unitPrice": 7150, "subtotal": 7150 },
+        { "item": "环球影城(4人)", "quantity": 1, "unitPrice": 2570, "subtotal": 2570 },
+        { "item": "海洋世界(4人)", "quantity": 1, "unitPrice": 700, "subtotal": 700 },
+        { "item": "其他门票", "quantity": 1, "unitPrice": 580, "subtotal": 580 }
+      ],
+      "tips": ["提前在线购票享优惠", "购买City PASS通票节省20%-30%", "关注Klook等平台促销"]
+    },
+    {
+      "id": "others",
+      "name": "购物及其他",
+      "budget": 9300,
+      "budgetUSD": 1300,
+      "percentage": 13.3,
+      "details": [
+        { "item": "购物预算", "quantity": 1, "unitPrice": 7000, "subtotal": 7000 },
+        { "item": "小费支出", "quantity": 1, "unitPrice": 1200, "subtotal": 1200 },
+        { "item": "通讯费用", "quantity": 1, "unitPrice": 200, "subtotal": 200 },
+        { "item": "纪念品", "quantity": 1, "unitPrice": 900, "subtotal": 900 }
+      ],
+      "tips": ["奥特莱斯购物更优惠", "餐厅小费15%-20%", "提前购买美国电话卡"]
+    },
+    {
+      "id": "reserve",
+      "name": "预备金",
+      "budget": 1400,
+      "budgetUSD": 200,
+      "percentage": 2.0,
+      "details": [
+        { "item": "应急预算", "quantity": 1, "unitPrice": 1400, "subtotal": 1400 }
+      ],
+      "tips": ["应对汇率波动", "处理意外支出"]
+    }
+  ],
+  "savingTips": [
+    { "category": "机票", "tip": "选择非旺季、提前预订、转机航班", "savings": "2000-4000元" },
+    { "category": "住宿", "tip": "经济型酒店/Airbnb、含早餐", "savings": "1500-3000元" },
+    { "category": "餐饮", "tip": "快餐为主、超市采购、自己烹饪", "savings": "2000-3000元" },
+    { "category": "门票", "tip": "City PASS通票、在线购票、促销活动", "savings": "1000-1500元" }
+  ]
+}
