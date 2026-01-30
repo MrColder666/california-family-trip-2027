@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .swiss-button {
+    @apply px-6 py-3 bg-black text-white font-bold text-sm tracking-wider uppercase border border-black hover:bg-california hover:text-white transition-colors;
+  }
+  
+  .swiss-button-outline {
+    @apply px-6 py-3 bg-transparent text-black font-bold text-sm tracking-wider uppercase border border-black hover:bg-black hover:text-white transition-colors;
+  }
+  
+  .swiss-card {
+    @apply bg-white border border-black transition-all;
+  }
+  
+  .swiss-card:hover {
+    @apply border-california;
+  }
+}
