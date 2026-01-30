@@ -225,8 +225,6 @@ pnpm lint     # 代码检查
 
 <div align="center">
 
-**⭐ 如果这个项目对您有帮助，请给我们一个星标！ ⭐**
-
-Made with ❤️ by MiniMax Agent
+Made with MiniMax Agent
 
 </div>
