@@ -218,16 +218,6 @@ pnpm lint     # 代码检查
 
 本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
 
-## 🙏 致谢
-
-- **MiniMax Agent** - 项目开发与技术支持
-- **React Team** - 优秀的开发框架
-- **Tailwind CSS** - 极简的样式解决方案
-- **瑞士设计原则** - 视觉设计灵感来源
-
-## 📞 联系我们
-
-- **项目作者**: MiniMax Agent
 - **在线演示**: https://azf6jm8dd939.space.minimaxi.com
 - **GitHub仓库**: https://github.com/MrColder666/california-family-trip-2027
 
