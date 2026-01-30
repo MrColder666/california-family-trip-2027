@@ -98,8 +98,8 @@ export default function HomePage() {
               <div className="relative">
                 <div className="aspect-[4/5] bg-gradient-to-br from-california/20 to-california/5 border border-black">
                   <img 
-                    src="/images/IMG_1824.jpeg" 
-                    alt="加州家庭旅行" 
+                    src="/images/big-sur-highway-1-bixby-bridge-sunset.jpg" 
+                    alt="加州一号公路" 
                     className="w-full h-full object-cover mix-blend-multiply"
                     onError={(e) => {
                       e.currentTarget.style.display = 'none'
