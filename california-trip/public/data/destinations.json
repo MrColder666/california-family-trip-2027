@@ -1,0 +1,248 @@
+{
+  "cities": [
+    {
+      "id": "los-angeles",
+      "name": "洛杉矶",
+      "nameEn": "Los Angeles",
+      "description": "天使之城，以电影文化、阳光海滩和多元美食闻名于世",
+      "coordinates": { "lat": 34.0522, "lng": -118.2437 },
+      "stayDays": 5,
+      "highlights": ["环球影城", "迪士尼乐园", "好莱坞", "圣莫尼卡海滩"],
+      "attractions": [
+        {
+          "name": "环球影城",
+          "nameEn": "Universal Studios Hollywood",
+          "type": "主题公园",
+          "description": "电影制作奥秘与尖端娱乐科技的完美融合",
+          "highlights": ["哈利波特魔法世界", "变形金刚3D", "动画制作之旅"],
+          "duration": "1天",
+          "price": { "adult": 514, "child": 514, "currency": "CNY" },
+          "tips": "提前在官网购票可获5-16美元优惠"
+        },
+        {
+          "name": "加州迪士尼乐园",
+          "nameEn": "Disneyland Resort",
+          "type": "主题公园",
+          "description": "全球第一家迪士尼乐园，适合所有年龄段",
+          "highlights": ["迪士尼乐园", "加州冒险乐园", "3日魔法门票"],
+          "duration": "2-3天",
+          "price": { "adult": 1430, "child": 1430, "currency": "CNY" },
+          "tips": "购买3日魔法门票更划算"
+        },
+        {
+          "name": "好莱坞星光大道",
+          "nameEn": "Hollywood Walk of Fame",
+          "type": "文化景点",
+          "description": "记录好莱坞近百年辉煌历史的明星大道",
+          "highlights": ["TCL中国剧院", "杜比剧院", "明星手印脚印"],
+          "duration": "半天",
+          "price": { "adult": 0, "child": 0, "currency": "CNY" },
+          "tips": "注意街边Cosplay合影需付小费"
+        },
+        {
+          "name": "格利菲斯天文台",
+          "nameEn": "Griffith Observatory",
+          "type": "科学景点",
+          "description": "洛杉矶最具科学气质的地标，免费开放",
+          "highlights": ["天文展厅", "Hollywood标牌", "城市全景"],
+          "duration": "半天",
+          "price": { "adult": 0, "child": 0, "currency": "CNY" },
+          "tips": "周一闭馆，傍晚可同时欣赏日落和夜景"
+        },
+        {
+          "name": "圣莫尼卡海滩",
+          "nameEn": "Santa Monica Beach",
+          "type": "自然景点",
+          "description": "66号公路官方终点，洛杉矶最受欢迎海滩",
+          "highlights": ["太平洋乐园", "摩天轮", "第三街步行街"],
+          "duration": "半天",
+          "price": { "adult": 0, "child": 0, "currency": "CNY" },
+          "tips": "日落时分乘坐摩天轮体验最佳"
+        }
+      ]
+    },
+    {
+      "id": "san-diego",
+      "name": "圣地亚哥",
+      "nameEn": "San Diego",
+      "description": "宜人气候、丰富历史和亲子友好的度假胜地",
+      "coordinates": { "lat": 32.7157, "lng": -117.1611 },
+      "stayDays": 3,
+      "highlights": ["老城区", "圣地亚哥动物园", "海洋世界", "科罗纳多岛"],
+      "attractions": [
+        {
+          "name": "圣地亚哥老城",
+          "nameEn": "Old Town San Diego",
+          "type": "历史景点",
+          "description": "加州诞生地，保留19世纪西班牙-墨西哥风情",
+          "highlights": ["殖民建筑", "墨西哥美食", "历史街道"],
+          "duration": "半天",
+          "price": { "adult": 0, "child": 0, "currency": "CNY" },
+          "tips": "推荐Old Town Mexican Cafe用餐"
+        },
+        {
+          "name": "巴尔博亚公园",
+          "nameEn": "Balboa Park",
+          "type": "文化景点",
+          "description": "美国最古老公众娱乐设施，汇集17座博物馆",
+          "highlights": ["艺术博物馆", "自然历史博物馆", "植物园"],
+          "duration": "半天-1天",
+          "price": { "adult": 0, "child": 0, "currency": "CNY" },
+          "tips": "与圣地亚哥动物园相邻，可安排一整天"
+        },
+        {
+          "name": "圣地亚哥动物园",
+          "nameEn": "San Diego Zoo",
+          "type": "自然景点",
+          "description": "世界最大动物园之一，800多种4000多只动物",
+          "highlights": ["猿猴森林大道", "热带雨林", "大熊猫馆"],
+          "duration": "1天",
+          "price": { "adult": 400, "child": 300, "currency": "CNY" },
+          "tips": "耗资2900万美元改建的猿猴森林最受欢迎"
+        },
+        {
+          "name": "圣地亚哥海洋世界",
+          "nameEn": "SeaWorld San Diego",
+          "type": "主题公园",
+          "description": "世界最大海洋主题公园之一，亲子必访",
+          "highlights": ["虎鲸表演", "海豚表演", "海洋动物互动"],
+          "duration": "1天",
+          "price": { "adult": 250, "child": 250, "currency": "CNY" },
+          "tips": "前排座位会被水花打湿，准备换洗衣物"
+        },
+        {
+          "name": "科罗纳多岛",
+          "nameEn": "Coronado Island",
+          "type": "自然景点",
+          "description": "全美排名第一的家庭海滩",
+          "highlights": ["科罗拉多酒店", "白沙海滩", "维多利亚建筑"],
+          "duration": "半天",
+          "price": { "adult": 0, "child": 0, "currency": "CNY" },
+          "tips": "2012年被评为全美最佳家庭海滩"
+        }
+      ]
+    },
+    {
+      "id": "san-francisco",
+      "name": "旧金山",
+      "nameEn": "San Francisco",
+      "description": "深厚历史底蕴与科技创新精神的完美融合",
+      "coordinates": { "lat": 37.7749, "lng": -122.4194 },
+      "stayDays": 4,
+      "highlights": ["金门大桥", "渔人码头", "恶魔岛", "九曲花街"],
+      "attractions": [
+        {
+          "name": "金门大桥",
+          "nameEn": "Golden Gate Bridge",
+          "type": "地标景点",
+          "description": "美国西海岸最具标志性建筑，国际橘色钢铁巨人",
+          "highlights": ["观景台", "人行道漫步", "日落摄影"],
+          "duration": "2-3小时",
+          "price": { "adult": 0, "child": 0, "currency": "CNY" },
+          "tips": "清晨和傍晚是拍摄最佳时段"
+        },
+        {
+          "name": "渔人码头",
+          "nameEn": "Fisherman's Wharf",
+          "type": "文化景点",
+          "description": "旧金山最充满欢乐气息的地方，城市象征",
+          "highlights": ["39号码头海狮", "海底世界水族馆", "邓杰内斯蟹"],
+          "duration": "半天",
+          "price": { "adult": 0, "child": 0, "currency": "CNY" },
+          "tips": "观看海狮免费，品尝蛤蜊奶油浓汤必试"
+        },
+        {
+          "name": "恶魔岛",
+          "nameEn": "Alcatraz Island",
+          "type": "历史景点",
+          "description": "曾经的联邦最高警戒监狱，教育与悬疑体验",
+          "highlights": ["监狱参观", "中文语音导览", "传奇囚犯故事"],
+          "duration": "半天",
+          "price": { "adult": 315, "child": 195, "currency": "CNY" },
+          "tips": "需提前在官网预订船票"
+        },
+        {
+          "name": "九曲花街",
+          "nameEn": "Lombard Street",
+          "type": "地标景点",
+          "description": "世界上最弯曲的街道，连续九个急转弯",
+          "highlights": ["步行穿越", "花园观赏", "城市全景"],
+          "duration": "1小时",
+          "price": { "adult": 0, "child": 0, "currency": "CNY" },
+          "tips": "最佳拍照位置在街道顶端"
+        },
+        {
+          "name": "金门公园",
+          "nameEn": "Golden Gate Park",
+          "type": "自然景点",
+          "description": "旧金山最大城市公园，纽约中央公园两倍大",
+          "highlights": ["加州科学院", "温室花房", "德扬博物馆"],
+          "duration": "半天-1天",
+          "price": { "adult": 0, "child": 0, "currency": "CNY" },
+          "tips": "加州科学院有天文馆和热带雨林展区"
+        },
+        {
+          "name": "探索博物馆",
+          "nameEn": "Exploratorium",
+          "type": "科学景点",
+          "description": "世界最独特博物馆，100多种互动展品",
+          "highlights": ["科学实验", "互动体验", "创意活动"],
+          "duration": "半天",
+          "price": { "adult": 215, "child": 165, "currency": "CNY" },
+          "tips": "非常适合好奇心旺盛的儿童"
+        }
+      ]
+    }
+  ],
+  "highway1": {
+    "name": "一号公路",
+    "nameEn": "Pacific Coast Highway",
+    "description": "世界上最美丽的公路，655英里太平洋海岸线",
+    "totalLength": "459英里(739公里)",
+    "recommendedDays": "3-4天",
+    "highlights": [
+      {
+        "name": "蒙特雷湾水族馆",
+        "nameEn": "Monterey Bay Aquarium",
+        "description": "北美最著名水族馆，35000种海洋生物",
+        "coordinates": { "lat": 36.6181, "lng": -121.9018 },
+        "price": { "adult": 430, "child": 285, "currency": "CNY" }
+      },
+      {
+        "name": "17英里海岸风景线",
+        "nameEn": "17-Mile Drive",
+        "description": "世界最风景优美的驾驶路线",
+        "coordinates": { "lat": 36.5925, "lng": -121.9611 },
+        "price": { "adult": 88, "child": 0, "currency": "CNY" }
+      },
+      {
+        "name": "卡梅尔小镇",
+        "nameEn": "Carmel-by-the-Sea",
+        "description": "充满艺术气息的海滨小镇，美国前十旅游胜地",
+        "coordinates": { "lat": 36.5552, "lng": -121.9233 },
+        "price": { "adult": 0, "child": 0, "currency": "CNY" }
+      },
+      {
+        "name": "比克斯比溪桥",
+        "nameEn": "Bixby Creek Bridge",
+        "description": "加州最常被拍摄的建筑，一号公路地标",
+        "coordinates": { "lat": 36.3714, "lng": -121.9019 },
+        "price": { "adult": 0, "child": 0, "currency": "CNY" }
+      },
+      {
+        "name": "麦克韦瀑布",
+        "nameEn": "McWay Falls",
+        "description": "加州仅有两个潮汐瀑布之一，80英尺落入海滩",
+        "coordinates": { "lat": 36.1582, "lng": -121.6720 },
+        "price": { "adult": 72, "child": 0, "currency": "CNY" }
+      },
+      {
+        "name": "赫氏古堡",
+        "nameEn": "Hearst Castle",
+        "description": "美国最著名奢华城堡，56间卧室61间浴室",
+        "coordinates": { "lat": 35.6852, "lng": -121.1682 },
+        "price": { "adult": 215, "child": 107, "currency": "CNY" }
+      }
+    ]
+  }
+}
